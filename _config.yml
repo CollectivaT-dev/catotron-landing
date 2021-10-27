@@ -3,12 +3,12 @@ permalink: pretty
 title: 'Jekyll Serif'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  mobile: "images/catotron01.png"
+  mobile_height: "34px"
+  mobile_width: "34px"
+  desktop: "images/catotron01.png"
+  desktop_height: "34px"
+  desktop_width: "150px"
 
 collections:
   services:

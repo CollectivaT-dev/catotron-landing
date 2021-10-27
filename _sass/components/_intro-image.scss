@@ -1,29 +1,31 @@
 .intro-image {
   width: 100%;
   height: auto;
-  margin-top: -40px;
+  margin-top: 40px;
+  text-align: center;
 }
 .intro-image-absolute {
   max-width: none;
 
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: -30px;
+  margin-left: 90px;
   @include media-breakpoint-up(sm) {
   }
   @include media-breakpoint-up(md) {
     position: absolute;
     bottom: -50px;
-    left: -50px;
+    left: 10px;
     width: 700px;
   }
   @include media-breakpoint-up(lg) {
     bottom: -60px;
-    left: -60px;
+    left: 10px;
     width: 800px;
   }
   @include media-breakpoint-up(xl) {
     bottom: -100px;
-    left: -70px;
+    left: 10px;
     width: 850px;
   }
 }
