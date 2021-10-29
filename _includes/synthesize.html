@@ -1,14 +1,47 @@
 <div class="container">
   <div class"row">
     <div class="col-md-12">
-      <form class="call" action="https://open.dadess.cat/dataset">
+      <form class="call">
         <div class="call-box-top">
-          <input type="text" placeholder="Escriviu el text aquí" name="q">
+          <input id="text" type="text" placeholder="Escriviu el text aquí" name="q">
         </div>
         <div class="call-box-bottom">
-          <button type="submit" class="button">Genera</button>
+          <button id="button" type="submit" class="button">Genera</button>
         </div>
       </form>
+      <p id="message"></p>
+      <audio id="audio" controls autoplay hidden></audio>
     </div>
   </div>
 </div>
+
+<script>
+function q(selector) {return document.querySelector(selector)}
+q('#text').focus()
+q('#button').addEventListener('click', function(e) {
+  text = q('#text').value.trim()
+  if (text) {
+    q('#message').textContent = 'Sintetitzant...'
+    q('#button').disabled = true
+    q('#audio').hidden = true
+    synthesize(text)
+  }
+  e.preventDefault()
+  return false
+})
+function synthesize(text) {
+  fetch('synthesize?text=' + encodeURIComponent(text), {cache: 'no-cache'})
+    .then(function(res) {
+      if (!res.ok) throw Error(res.statusText)
+      return res.blob()
+    }).then(function(blob) {
+      q('#message').textContent = ''
+      q('#button').disabled = false
+      q('#audio').src = URL.createObjectURL(blob)
+      q('#audio').hidden = false
+    }).catch(function(err) {
+      q('#message').textContent = 'Error: ' + err.message
+      q('#button').disabled = false
+    })
+}
+</script></body></html>
