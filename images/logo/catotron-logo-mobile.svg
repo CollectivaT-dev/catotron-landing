@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="54px"
+   height="54px"
+   viewBox="0 0 54 54"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="catotron-logo-mobile.svg"
+   inkscape:version="1.1.1 (eb90963e84, 2021-10-02)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.9074074"
+     inkscape:cx="47.345972"
+     inkscape:cy="32.118483"
+     inkscape:window-width="1551"
+     inkscape:window-height="752"
+     inkscape:window-x="412"
+     inkscape:window-y="95"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <title
+     id="title2">logo-mobile</title>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>logo-mobile</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="bck">
+    <rect
+       style="fill:#4f51d7;fill-opacity:1;fill-rule:evenodd;stroke:#4d51d7;stroke-width:1.00157;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect148"
+       width="54"
+       height="54"
+       x="0.01159433"
+       y="0.6120944" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="up">
+    <path
+       class="st0"
+       d="m 20.979697,14.257225 -3.05891,-2.335897 c -0.778637,1.056715 -2.05782,1.724114 -3.503852,1.724114 -2.447131,0 -4.393714,-2.002198 -4.393714,-4.393713 0,-2.391515 2.002198,-4.393714 4.393714,-4.393714 1.446032,0 2.669598,0.6674 3.503852,1.724116 l 3.05891,-2.335899 C 19.478049,2.244033 17.086533,1.020468 14.416935,1.020468 c -4.5605622,0 -8.2868774,3.726314 -8.2868774,8.286878 0,4.560563 3.6706991,8.286878 8.2868774,8.286878 2.669598,-0.05561 5.061114,-1.334799 6.562762,-3.336999 z"
+       id="path106"
+       style="fill:#ffffff;stroke-width:0.556167" />
+    <path
+       class="st0"
+       d="M 21.369015,17.260523 H 36.830437 L 29.099726,0.686768 Z m 5.617281,-3.225763 2.11343,-4.504947 2.113431,4.504947 z"
+       id="path108"
+       style="fill:#ffffff;stroke-width:0.556167" />
+    <polygon
+       class="st0"
+       points="590.5,157.4 590.5,134.8 598,134.8 598,128.6 575.4,128.6 575.4,134.8 582.8,134.8 582.8,157.4 "
+       id="polygon110"
+       style="fill:#ffffff"
+       transform="matrix(0.55616631,0,0,0.55616631,-284.96739,-70.280059)" />
+    <path
+       class="st0"
+       d="m 20.296261,35.538607 c 4.560564,0 8.286879,-3.670698 8.286879,-8.286878 0,-4.560564 -3.726315,-8.286878 -8.286879,-8.286878 -4.560563,0 -8.286878,3.726314 -8.286878,8.286878 0.0556,4.560564 3.726315,8.286878 8.286878,8.286878 z m 0,-12.680592 c 2.447133,0 4.393715,2.002199 4.393715,4.393714 0,2.391515 -2.002198,4.393713 -4.393715,4.393713 -2.391516,0 -4.393714,-2.002198 -4.393714,-4.393713 0,-2.391515 2.002198,-4.393714 4.393714,-4.393714 z"
+       id="path112"
+       style="fill:#ffffff;stroke-width:0.556167" />
+    <polygon
+       class="st0"
+       points="651.9,128.6 629.3,128.6 629.3,134.8 636.8,134.8 636.8,157.4 644.4,157.4 644.4,134.8 651.9,134.8 "
+       id="polygon114"
+       style="fill:#ffffff"
+       transform="matrix(0.55616631,0,0,0.55616631,-320.96739,-52.280059)" />
+    <path
+       class="st0"
+       d="m 13.610625,47.309544 c 2.558365,-0.667399 3.615081,-2.224665 3.615081,-4.78303 0,-3.726314 -2.224665,-5.227963 -7.897565,-5.227963 H 3.321547 v 16.01759 H 7.60403 v -5.506047 h 1.501648 l 3.559465,5.506047 h 4.78303 z M 9.383758,44.25063 H 7.659646 v -3.559465 h 1.724112 c 2.669603,0 3.615086,0.444933 3.615086,1.779732 0,1.3348 -0.945483,1.779733 -3.615086,1.779733 z"
+       id="path116"
+       style="fill:#ffffff;stroke-width:0.556167" />
+    <path
+       class="st0"
+       d="m 35.13426,45.251729 c 0,-4.560564 -3.72631,-8.286878 -8.28687,-8.286878 -4.560562,0 -8.286881,3.726314 -8.286881,8.286878 0,4.560564 3.670694,8.286878 8.286881,8.286878 4.56056,0 8.28687,-3.726314 8.28687,-8.286878 z m -8.28687,4.393713 c -2.447136,0 -4.393718,-2.002198 -4.393718,-4.393713 0,-2.391515 2.002199,-4.393714 4.393718,-4.393714 2.39151,0 4.3937,2.002199 4.3937,4.393714 0,2.391515 -1.94657,4.393713 -4.3937,4.393713 z"
+       id="path118"
+       style="fill:#ffffff;stroke-width:0.556167" />
+    <polygon
+       class="st0"
+       points="739.4,128.6 731.7,128.6 731.7,142.7 715.4,127.6 715.4,157.4 723.1,157.4 723.1,143.2 739.4,158.3 "
+       id="polygon120"
+       style="fill:#ffffff"
+       transform="matrix(0.55616631,0,0,0.55616631,-360.96739,-34.280059)" />
+  </g>
+</svg>
