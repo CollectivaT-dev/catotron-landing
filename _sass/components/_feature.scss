@@ -1,17 +1,15 @@
 .feature {
   height: 100%;
-  border: 1px solid $white-offset;
+  //border: 1px solid $white-offset;
   border-radius: 3px;
   padding: 20px;
-  background-color: $white-offset;
+  //background-color: $white-offset;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
   .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
     display: flex;
     margin-bottom: 20px;
     text-align: center;
@@ -20,10 +18,21 @@
     width: 100%;
     height: auto;
   }
-  .feature-title {
-  }
+
   .feature-content {
     margin-bottom: 0;
     margin-top: auto;
   }
+}
+
+
+h3.feature-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+
+h2.feature-title {
+  font-size: 2.2rem;
+  line-height: 1;
 }

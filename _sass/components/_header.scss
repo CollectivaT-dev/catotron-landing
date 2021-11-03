@@ -5,8 +5,8 @@
   justify-content: space-between;
   align-items: center;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  border-bottom: 1px solid $white-offset;
-  padding: 10px 0px;
+  // border-bottom: 1px solid $white-offset;
+  padding: 20px 0px;
   .container {
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,10 @@
     position: absolute;
     z-index: 10;
     width: 100%;
+    background-color: $indigo;
+  }
+  &.dark-bg {
+    background-color: $indigo;
   }
 }
 .lock-scroll {
@@ -25,3 +29,6 @@
     }
   }
 }
+
+
+

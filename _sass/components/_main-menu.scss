@@ -10,14 +10,17 @@
     > li {
       list-style: none;
       font-size: 1rem;
+      text-transform: uppercase;
       > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
         font-weight: normal;
         text-decoration: none;
-        color: $primary;
+        color: $pink;
+        transition: all 0.3s ease-in;
         &:hover {
-          text-decoration: underline;
+          background-color: $pink;
+          color: $white;
         }
       }
       &.active {
@@ -27,6 +30,22 @@
           &:hover {
             text-decoration: none;
             transition: all 225ms ease-in 0s;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dark-bg {
+  .main-menu {
+    > ul {
+      > li {
+        > a {
+          color: $white;
+          &:hover {
+            background-color: $white;
+            color: $indigo;
           }
         }
       }

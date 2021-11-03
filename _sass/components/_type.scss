@@ -41,3 +41,12 @@ ol {
     margin: 0;
   }
 }
+
+a {
+  color: $indigo;
+  &:hover,
+  &:active,
+  &:visited {
+    color: $indigo;
+  }
+}

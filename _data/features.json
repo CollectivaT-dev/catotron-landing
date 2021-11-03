@@ -1,29 +1,29 @@
 [
   {
-    "title": "Facil integració web",
+    "title": "Facil<br/>integració web",
     "description": "Make your articles speak in catalan.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/car03.svg",
+      "width": 140,
+      "height": 140
     }
   },
   {
-    "title": "Veus personalitzables",
+    "title": "Veus<br/>personalitzables",
     "description": "Make your products speak in catalan",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/car02.svg",
+      "width": 140,
+      "height": 140
     }
   },
   {
-    "title": "Integració amb productes",
+    "title": "Integració<br/>amb productes",
     "description": "Make Catotron speak with the voice of your choice",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/car01.svg",
+      "width": 140,
+      "height": 140
     }
   }
 ]
