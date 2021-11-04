@@ -1,10 +1,23 @@
-<div class='header'>
+<div class='header{% if page.fixed_navbar %} header-absolute {% endif %}{% if page.has_dark_bg %} dark-bg {% endif %}'>
   <div class="container">
+
     <div class="logo">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+      <a href="{{ site.baseurl }}">
+        {% if page.has_dark_bg %}
+        <img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktopDark | relative_url }}" />
+        {% else %}
+        <img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" />
+        {% endif %}
+      </a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+      <a href="{{ site.baseurl }}">
+        {% if page.has_dark_bg %}
+        <img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobileDark | relative_url }}" />
+        {% else %}
+        <img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" />
+        {% endif %}
+      </a>
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}

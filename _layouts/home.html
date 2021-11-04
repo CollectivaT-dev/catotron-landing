@@ -2,32 +2,26 @@
 layout: default
 bodyClass: "page-home"
 ---
-
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
+    <div class="row">
       {% if page.intro_image %}
       <div class="col-12 col-md-12 col-lg-12">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" style="text-align:center;"/>
+        <img width="300" alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
       </div>
       {% endif %}
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-12 col-lg-12" style="text-align:center;">
-      {{ content }}
-      {% if page.show_call_box %}
+      <div class="col-12 col-md-12 col-lg-12" style="text-align:center;">
+        {{ content }}
+        {% if page.show_call_box %}
         {% include synthesize.html show_button=true %}
-      {% endif %}
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
 
 {% if site.data.features %}
-<div class="strip">
+<div class="strip hasBluBg hasLightTextColor">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
 
@@ -35,7 +29,9 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          <div class="feature-image">
+            <img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" />
+          </div>
           {% endif %}
           <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>
@@ -52,23 +48,27 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-      {% for technology in site.data.technologies %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div>
-          <h3 class="feature-title">{{ technology.subtitle }}</h3>
-          <h2 class="feature-title">{{ technology.title }}</h2>
-          <div class="feature-content">{{ technology.description }}</div>
-        </div>
+     <div class="col-12 col-md-6">
+       {% for technology in site.data.technologies %}
+       <div class="col-12 mb-9">
+         <div>
+           <h3 class="feature-title hasPinkTextColor">{{ technology.subtitle }}</h3>
+           <h2 class="feature-title hasIndigoTextColor">{{ technology.title }}</h2>
+           <div class="feature-content">{{ technology.description }}</div>
+         </div>
+       </div>
+       {% endfor %}
+     </div>
+      <div class="col-12 col-md-6">
+        <img src="/images/web_image.png" width="500" class="fit-image">
       </div>
-      {% endfor %}
-
     </div>
   </div>
 </div>
 {% endif %}
 
-
-<div class="container">
+<div class="strip hasIngigoBg hasLightTextColor pt-10 pb-5 newsletter ">
+<div class="container pt-md-5">
   <div class="row justify-content-start">
     <div class="col-12 col-md-12 col-lg-12">
       {% if page.show_call_box %}
@@ -77,6 +77,4 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-
-</br>
-</br>
+</div>

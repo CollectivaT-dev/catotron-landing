@@ -6,3 +6,31 @@
     flex: 1 0 0;
   }
 }
+
+
+.hasBluBg {
+  background-color: $blue;
+}
+
+.hasIngigoBg {
+  background-color: $indigo;
+}
+
+.hasLightTextColor {
+  color: $white
+}
+
+.hasPinkTextColor {
+  color: $pink
+}
+
+.hasIndigoTextColor {
+  color: $indigo;
+}
+
+
+.fit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

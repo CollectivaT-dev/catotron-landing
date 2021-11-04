@@ -13,9 +13,9 @@ main:
     weight: 5
 
 footer:
-  - name: "Home"
-    url: "/"
+  - name: "Avís legal"
+    url: "/avis-legal"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Política de privacitat"
+    url: "/politica-de-privacitat/"
     weight: 2

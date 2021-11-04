@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 // Colors
 $primary: #fd4777;
 $primary-dark: #a01b16;
@@ -17,8 +19,8 @@ $link-hover-color: lighten($primary-dark, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: Roboto, sans-serif, -apple-system;
+$font-family-base:  'Montserrat', sans-serif;
+$font-family-heading:  'Montserrat', sans-serif;
 
 // Footer
 $footer-background-color: $primary;
@@ -54,6 +56,7 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
+@import "components/newsletter";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages

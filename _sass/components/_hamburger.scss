@@ -25,3 +25,16 @@
     }
   }
 }
+
+
+.dark-bg {
+  .hamburger {
+    .hamburger-inner {
+      background-color: $white;
+      &:after,
+      &:before {
+        background-color: $white;
+      }
+    }
+  }
+}

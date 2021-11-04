@@ -1,10 +1,8 @@
 ---
-title: Services
-layout: services
-description: Services
-intro_image: "images/illustrations/reading.svg"
-fixed_navbar: true
-has_dark_bg: true
+title: Política de privacitat
+layout: page
+description: Política de privacitat
+
 ---
 
 # Services that grow with your business

@@ -1,10 +1,8 @@
 ---
-title: Services
-layout: services
-description: Services
-intro_image: "images/illustrations/reading.svg"
-fixed_navbar: true
-has_dark_bg: true
+title: Avís legal
+layout: page
+description: Avís legal
+
 ---
 
 # Services that grow with your business

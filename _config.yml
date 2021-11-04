@@ -3,10 +3,12 @@ permalink: pretty
 title: 'Catotron'
 
 logo:
-  mobile: "images/catotron01.png"
+  mobile: "images/logo/catotron_pink.svg"
+  mobileDark: "images/logo/catotron.svg"
   mobile_height: "34px"
   mobile_width: "34px"
-  desktop: "images/catotron01.png"
+  desktop: "images/logo/catotron_pink.svg"
+  desktopDark: "images/logo/catotron.svg"
   desktop_height: "34px"
   desktop_width: "150px"
 

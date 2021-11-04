@@ -15,9 +15,9 @@
   }
   .footer-title {
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: $font-family-heading;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 10px;
     @include media-breakpoint-up(sm) {
       margin: 0;
