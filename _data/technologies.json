@@ -2,7 +2,7 @@
   {
     "title": "Síntesi de la parla",
     "subtitle": "TECNOLOGIA",
-    "description": "La **síntesi de la parla** és la producció artificial de parla humana, automàticament i sense intervenció humana. Els últims anys, les tecnologies de síntesi de la parla han avançat molt gràcies a les tècniques d’aprenentatge profund, millorant la qualitat i naturalitat dels àudios generats. Catotron és el primer sistema de síntesi de veu en català basat en xarxes neuronals i és disponible per qualsevol persona o desenvolupador.",
+    "description": "La <b>síntesi de la parla</b> és la producció artificial de parla humana, automàticament i sense intervenció humana. Els últims anys, les tecnologies de síntesi de la parla han avançat molt gràcies a les tècniques d’aprenentatge profund, millorant la qualitat i naturalitat dels àudios generats. <b>Catotron</b> és el primer sistema de síntesi de veu en català basat en xarxes neuronals i és disponible per qualsevol persona o desenvolupador.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -12,7 +12,7 @@
   {
     "title": "El codi utilitzat",
     "subtitle": "LLICENCIES OBERTES",
-    "description": "At adipisci velit sit et ex impedit architecto dicta. Exercitationem quae labore et molestiae. Corrupti dolore sit iste. Molestias ipsum harum mollitia ut. Id vel ut quia incidunt ut consectetur harum. Error qui eum quo. Dolor consequatur repudiandae rerum minus quae sunt. Voluptatem dolores expedita pariatur nihil pariatur iusto animi nobis. Labore odio tempore sit vel et iste fuga nesciunt. Consequuntur est totam sit ex amet. Ea autem mollitia itaque. Deserunt quas est eos molestiae molestiae.",
+    "description": "<b>Catotron</b> és un projecte de comunitat i s'està millorant contínuament. La tecnologia està disponible amb una <b>llicència oberta</b> per l'ús, modificació i distribució de qualsevol entitat o desenvolupador. D'aquesta manera la tecnologia viu i està millorant constantment.",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
