@@ -1,7 +1,7 @@
 [
   {
     "title": "Facil<br/>integració web",
-    "description": "Make your articles speak in catalan.",
+    "description": "Podeu convertir les vostres pàgines o articles a àudio publicacions.",
     "image": {
       "url": "images/features/car03.svg",
       "width": 140,
@@ -10,7 +10,7 @@
   },
   {
     "title": "Veus<br/>personalitzables",
-    "description": "Make your products speak in catalan",
+    "description": "Tria la teva pròpia veu per representar la teva organització o marca.",
     "image": {
       "url": "images/features/car02.svg",
       "width": 140,
@@ -19,7 +19,7 @@
   },
   {
     "title": "Integració<br/>amb productes",
-    "description": "Make Catotron speak with the voice of your choice",
+    "description": "Catotron una tecnologia portable i incrustable, feu els vostres productes parla català.",
     "image": {
       "url": "images/features/car01.svg",
       "width": 140,
