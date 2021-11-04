@@ -1,4 +1,4 @@
-baseurl: '/'
+baseurl: '/info'
 permalink: pretty
 title: 'Catotron'
 
@@ -29,6 +29,9 @@ defaults:
       type: "team"
     values:
       layout: "team"
+
+landing:
+  image: "images/web_image.png"
 
 sass:
   indentWidth: 4

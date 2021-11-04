@@ -1,9 +1,9 @@
 main:
   - name: "Qui som"
-    url: "/qui-som/"
+    url: "/qui-som"
     weight: 2
   - name: "Contacte"
-    url: "/contacte/"
+    url: "/contacte"
     weight: 3 
 
 footer:
@@ -11,5 +11,5 @@ footer:
     url: "/avis-legal"
     weight: 1
   - name: "Política de privacitat"
-    url: "/politica-de-privacitat/"
+    url: "/politica-de-privacitat"
     weight: 2

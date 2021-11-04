@@ -1,12 +1,17 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+    "link": "https://github.com/Collectivat-dev",
     "image": "images/social/github.svg"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
+    "link": "https://twitter.com/collectivat",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/collectivat/",
+    "image": "images/social/instagram.svg"
   }
 ]

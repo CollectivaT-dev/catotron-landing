@@ -1,7 +1,7 @@
 ---
 title: Catotron TTS
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Catotron, síntesi de la parla obert i lliure. Podeu fer que els vostres articles o productes parlin català.
 intro_image: "/images/logo/catotron.svg"
 intro_image_absolute: false
 intro_image_hide_on_mobile: false
