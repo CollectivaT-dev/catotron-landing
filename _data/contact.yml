@@ -1,3 +1,7 @@
-email: 'jekyllserif@example.com'
-phone: '1800 123 000'
-contact_button_link: 'contact'
+email: 'info@catotron.cat'
+adress: 'Can Batlló C/Constitució 19-25. BLOC 8.'
+phone: ''
+contact_button_link: 'contacte'
+popup: '"<a href=\"https://bcn.coop/espais/\"> <b>COÒPOLIS</b><br /> </a>
+A CAN BATLLÓ <br/>
+C/Constitució 19-25. BLOC 8.<br/>"'

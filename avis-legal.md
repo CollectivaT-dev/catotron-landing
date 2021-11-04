@@ -2,7 +2,8 @@
 title: Avís legal
 layout: page
 description: Avís legal
-
+fixed_navbar: true
+has_dark_bg: true
 ---
 
 # Services that grow with your business

@@ -2,7 +2,8 @@
 title: Política de privacitat
 layout: page
 description: Política de privacitat
-
+fixed_navbar: true
+has_dark_bg: true
 ---
 
 # Services that grow with your business

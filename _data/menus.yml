@@ -1,16 +1,10 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Qui som"
+    url: "/qui-som/"
     weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
-    weight: 5
+  - name: "Contacte"
+    url: "/contacte/"
+    weight: 3 
 
 footer:
   - name: "Avís legal"
