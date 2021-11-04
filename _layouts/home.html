@@ -2,7 +2,7 @@
 layout: default
 bodyClass: "page-home"
 ---
-<div class="intro">
+<div class="intro {% if page.has_dark_bg %} hasIngigoBg{%endif %}">
   <div class="container">
     <div class="row">
       {% if page.intro_image %}
