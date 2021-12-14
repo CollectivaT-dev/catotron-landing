@@ -11,6 +11,7 @@ logo:
   desktopDark: "images/logo/catotron.svg"
   desktop_height: "34px"
   desktop_width: "150px"
+  generalitat: "images/logo/logo_generalitat_w.png"
 
 collections:
   services:

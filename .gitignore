@@ -10,6 +10,7 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 **/Gemfile.lock
+info/
 
 # Temporary files
 tmp
@@ -20,3 +21,6 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 .idea
+
+# Data files
+*.tar.gz

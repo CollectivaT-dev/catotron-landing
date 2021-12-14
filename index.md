@@ -10,6 +10,6 @@ fixed_navbar: true
 has_dark_bg: true
 ---
 
-# Sintesi de la Parla obert i lliure en català
+# Síntesi de la Parla oberta i lliure en català
 
 [comment]: <> (Tecnologia entrenada amb xarxes neuronals, oberta i lliure. Per provar el model de Pau, escriviu a baix:)
